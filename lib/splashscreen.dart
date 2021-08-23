@@ -35,7 +35,7 @@ class SplashScreen extends StatefulWidget {
   final Image? image;
 
   /// Loading text, default: 'Loading'
-  final Text loadingText;
+  final Widget loadingText;
 
   /// Padding for long Loading text, default: EdgeInsets.all(0)
   final EdgeInsets loadingTextPadding;
@@ -118,7 +118,7 @@ class SplashScreen extends StatefulWidget {
     Color? loaderColor,
     Color backgroundColor = Colors.white,
     double? photoSize,
-    Text loadingText = const Text(''),
+    Widget loadingText = const Text(''),
     EdgeInsets loadingTextPadding = const EdgeInsets.only(top: 10.0),
     Image? image,
     Route? pageRoute,
@@ -155,7 +155,7 @@ class SplashScreen extends StatefulWidget {
     Color? loaderColor,
     Color backgroundColor = Colors.white,
     double? photoSize,
-    Text loadingText = const Text(''),
+    Widget loadingText = const Text(''),
     EdgeInsets loadingTextPadding = const EdgeInsets.only(top: 10.0),
     Image? image,
     Route? pageRoute,
